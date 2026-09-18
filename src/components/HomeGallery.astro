@@ -1,0 +1,142 @@
+---
+import { dbdImages } from '../data/dbd';
+import { getGalleryUi } from '../data/i18n/gallery-ui';
+import { getUi } from '../data/i18n';
+import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
+import { contentSrcSet, galleryTileSizes } from '../lib/responsive-images';
+
+interface Props {
+	locale?: LocaleCode;
+}
+
+const locale = Astro.props.locale ?? defaultLocale;
+const galleryUi = getGalleryUi(locale);
+const ui = getUi(locale);
+
+const galleryImages = dbdImages.gallery.slice(0, 3).map((image, index) => ({
+	src: image.src,
+	alt: image.alt,
+	width: image.width ?? 960,
+	height: image.height ?? 540,
+}));
+
+const galleryAlts = [
+	ui.images.cheatsPackage,
+	ui.images.espWallhack,
+	ui.images.aimbotCombat,
+] as const;
+---
+
+<section class="home-gallery shell" aria-labelledby="home-gallery-title">
+	<header class="home-gallery__head">
+		<p class="home-gallery__eyebrow">{galleryUi.eyebrow}</p>
+		<h2 id="home-gallery-title">{galleryUi.title}</h2>
+		<p class="home-gallery__sub">{galleryUi.subtitle}</p>
+	</header>
+	<div class="home-gallery__grid">
+		{
+			galleryImages.map((image, index) => (
+				<figure class="home-gallery__item">
+					<img
+						src={image.src}
+						srcset={contentSrcSet(image.src)}
+						sizes={galleryTileSizes}
+						alt={galleryAlts[index] ?? image.alt}
+						width={image.width}
+						height={image.height}
+						loading="lazy"
+						decoding="async"
+					/>
+				</figure>
+			))
+		}
+	</div>
+</section>
+
+<style>
+	.home-gallery {
+		padding-block: clamp(2.75rem, 5vw, 3.75rem);
+		border-top: 1px solid var(--line-soft);
+		background: var(--bg);
+	}
+
+	.home-gallery__head {
+		margin-bottom: 1.35rem;
+		max-width: 36rem;
+	}
+
+	.home-gallery__eyebrow {
+		margin: 0 0 0.4rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--magenta-soft);
+	}
+
+	.home-gallery__head h2 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.25rem, 2.2vw, 1.45rem);
+		font-weight: 700;
+		letter-spacing: -0.02em;
+		line-height: 1.2;
+		color: var(--ink);
+		text-wrap: balance;
+	}
+
+	.home-gallery__sub {
+		margin: 0.45rem 0 0;
+		max-width: 34rem;
+		font-size: 0.875rem;
+		line-height: 1.5;
+		color: var(--ink-muted);
+	}
+
+	.home-gallery__grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.65rem;
+	}
+
+	.home-gallery__item {
+		margin: 0;
+		overflow: hidden;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md);
+		background: var(--bg-elevated);
+		aspect-ratio: 16 / 9;
+	}
+
+	.home-gallery__item img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		object-position: center;
+		background: #08090a;
+	}
+
+	@media (max-width: 900px) {
+		.home-gallery__grid {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.home-gallery__item:last-child {
+			grid-column: 1 / -1;
+			max-width: min(100%, 36rem);
+			justify-self: center;
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 560px) {
+		.home-gallery__grid {
+			grid-template-columns: 1fr;
+		}
+
+		.home-gallery__item:last-child {
+			grid-column: auto;
+			max-width: none;
+		}
+	}
+</style>

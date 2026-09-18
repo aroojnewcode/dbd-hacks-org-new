@@ -1,0 +1,114 @@
+/**
+ * Subtle violet glow only — box-shadow on controls/cards.
+ * Does NOT set text color, link color, or background tints on content areas.
+ */
+
+:root {
+	/* Matches brand accent (#7c3aed) */
+	--atmos-violet: 124 58 237;
+	--atmos-violet-deep: 91 33 182;
+	--atmos-glow-sm: 0 0 20px rgb(var(--atmos-violet) / 0.22);
+	--atmos-glow-md: 0 0 28px rgb(var(--atmos-violet) / 0.28), 0 0 52px rgb(var(--atmos-violet-deep) / 0.12);
+}
+
+/* Soft top vignette — same mood as reference storefront, no text color changes */
+body {
+	background-color: var(--bg);
+	background-image: radial-gradient(
+		ellipse 90% 52% at 50% -14%,
+		rgb(var(--atmos-violet) / 0.11),
+		transparent 58%
+	);
+	background-repeat: no-repeat;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+	body {
+		background-image: none;
+	}
+}
+
+/* Primary CTAs — outer glow only; button colors unchanged */
+.btn-buy {
+	box-shadow: 0 1px 0 color-mix(in srgb, #fff 40%, transparent) inset, var(--atmos-glow-sm);
+	transition:
+		background 0.15s ease,
+		transform 0.15s ease,
+		box-shadow 0.2s ease;
+}
+
+.btn-buy:hover,
+.btn-buy:focus-visible {
+	box-shadow: 0 1px 0 color-mix(in srgb, #fff 40%, transparent) inset, var(--atmos-glow-md);
+}
+
+.hero__buy {
+	box-shadow:
+		0 1px 0 color-mix(in srgb, #fff 70%, transparent) inset,
+		0 10px 28px rgba(0, 0, 0, 0.28),
+		var(--atmos-glow-sm);
+}
+
+.hero__buy:hover,
+.hero__buy:focus-visible {
+	box-shadow:
+		0 1px 0 color-mix(in srgb, #fff 70%, transparent) inset,
+		0 14px 32px rgba(0, 0, 0, 0.34),
+		var(--atmos-glow-md);
+}
+
+.site-tools__buy {
+	box-shadow: var(--atmos-glow-sm);
+}
+
+.site-tools__buy:hover,
+.site-tools__buy:focus-visible {
+	box-shadow: var(--atmos-glow-md);
+}
+
+.site-header.is-scrolled,
+.site-header.is-open {
+	box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28), 0 0 36px rgb(var(--atmos-violet-deep) / 0.1);
+}
+
+.home-gallery__item,
+.gallery-block__item,
+.media-frame {
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.32), 0 0 28px rgb(var(--atmos-violet-deep) / 0.08);
+	transition: box-shadow 0.25s ease;
+}
+
+.home-gallery__item:hover,
+.gallery-block__item:hover,
+.media-frame:hover {
+	box-shadow: 0 16px 44px rgba(0, 0, 0, 0.38), var(--atmos-glow-sm);
+}
+
+.home-seo__cat:hover,
+.article :global(.price-card:hover) {
+	box-shadow: var(--atmos-glow-sm);
+}
+
+.article :global(.price-card.is-featured) {
+	box-shadow: 0 0 24px rgb(var(--atmos-violet-deep) / 0.14);
+}
+
+.site-menu:hover,
+.site-menu:focus-visible,
+.site-header .lang-switcher__toggle:hover,
+.site-header .lang-switcher__toggle:focus-visible,
+.activity-btn:hover,
+.activity-btn:focus-visible {
+	box-shadow: var(--atmos-glow-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.btn-buy,
+	.hero__buy,
+	.site-tools__buy,
+	.home-gallery__item,
+	.gallery-block__item,
+	.media-frame {
+		transition: none;
+	}
+}

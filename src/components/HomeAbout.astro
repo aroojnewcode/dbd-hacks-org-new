@@ -1,0 +1,231 @@
+---
+import enHome from '../../public/locales/en/translation.json';
+import { getPageContent, getUi } from '../data/i18n';
+import { getLocalizedPath } from '../data/i18n/routing';
+import type { LocaleCode } from '../data/i18n/locales';
+import { siteConfig } from '../data/site';
+import { getT } from '../i18n/server';
+
+interface Props {
+	locale?: LocaleCode;
+}
+
+const locale = Astro.props.locale ?? defaultLocale;
+const checkoutUrl = siteConfig.checkoutUrl;
+const home = getPageContent(locale, 'home');
+const ui = getUi(locale);
+const t = getT(locale);
+
+const en = locale === 'en';
+const h = en ? enHome.home : null;
+
+const eyebrow = en ? h!.aboutEyebrow : ui.nav.hacks;
+const title = en ? h!.aboutTitle : home.h1;
+const ledeBefore = en ? h!.aboutP1Before : `${home.intro} `;
+const storeLabel = en ? h!.aboutStore : ui.nav.store;
+const ledeMid = en ? h!.aboutP1Mid : ' — ';
+const statusLabel = en ? h!.aboutStatus : ui.nav.updates;
+const ledeAfter = en ? h!.aboutP1After : '';
+const quickLead = en ? h!.aboutQuickLead : t('homeSeo.lede');
+const quickAria = en ? h!.aboutQuickAria : t('nav.primaryAria');
+
+const storeHref = checkoutUrl;
+const statusHref = getLocalizedPath('updates', locale);
+
+const quickLinks = [
+	{
+		href: getLocalizedPath('hacks', locale),
+		label: en ? h!.aboutPillar : ui.nav.hacks,
+	},
+	{
+		href: getLocalizedPath('dbd-esp', locale),
+		label: en ? h!.aboutEsp : ui.nav.esp,
+	},
+	{
+		href: getLocalizedPath('dbd-aimbot', locale),
+		label: en ? h!.aboutAimbot : ui.nav.aimbot,
+	},
+	{
+		href: statusHref,
+		label: en ? h!.aboutUndetected : ui.nav.updates,
+	},
+];
+---
+
+<section class="home-about shell" aria-labelledby="home-about-title">
+	<div class="home-about__layout">
+		<header class="home-about__head">
+			<p class="home-about__eyebrow">{eyebrow}</p>
+			<h1 id="home-about-title" class="home-about__title">{title}</h1>
+			<p class="home-about__lede">
+				{ledeBefore}
+				<a href={storeHref} rel={storeHref.startsWith('http') ? 'noopener noreferrer' : undefined}>
+					{storeLabel}
+				</a>
+				{ledeMid}
+				<a href={statusHref}>{statusLabel}</a>
+				{ledeAfter}
+			</p>
+		</header>
+
+		<nav class="home-about__quick" aria-label={quickAria}>
+			<p class="home-about__quick-lead">{quickLead}</p>
+			<ul class="home-about__pills">
+				{
+					quickLinks.map((link) => (
+						<li>
+							<a href={link.href}>
+								<span>{link.label}</span>
+								<span class="home-about__pill-arrow" aria-hidden="true" />
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+	</div>
+</section>
+
+<style>
+	.home-about {
+		padding-block: clamp(2.75rem, 5vw, 3.75rem);
+		border-bottom: 1px solid var(--line-soft);
+		background: linear-gradient(
+			180deg,
+			color-mix(in srgb, var(--magenta) 4%, var(--bg-panel)) 0%,
+			var(--bg-panel) 42%
+		);
+	}
+
+	.home-about__layout {
+		display: grid;
+		grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+		gap: clamp(1.25rem, 3vw, 2rem);
+		align-items: start;
+	}
+
+	.home-about__head {
+		min-width: 0;
+		padding-inline-start: 1rem;
+		border-inline-start: 3px solid var(--magenta);
+	}
+
+	.home-about__eyebrow {
+		margin: 0 0 0.5rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--magenta-soft);
+	}
+
+	.home-about__title {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.45rem, 3.2vw, 2.05rem);
+		font-weight: 800;
+		letter-spacing: -0.035em;
+		line-height: 1.18;
+		color: var(--ink);
+		text-wrap: balance;
+	}
+
+	.home-about__lede {
+		margin: 1rem 0 0;
+		max-width: 38rem;
+		font-size: clamp(0.9375rem, 1.45vw, 1.05rem);
+		line-height: 1.65;
+		color: var(--ink-muted);
+	}
+
+	.home-about__lede a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+		border-bottom: 1px solid color-mix(in srgb, var(--magenta-soft) 40%, transparent);
+	}
+
+	.home-about__lede a:hover {
+		color: var(--ink);
+		border-bottom-color: var(--line);
+	}
+
+	.home-about__quick {
+		padding: 1.25rem 1.2rem 1.15rem;
+		border: 1px solid color-mix(in srgb, var(--magenta) 22%, var(--line));
+		border-radius: var(--radius-md);
+		background: color-mix(in srgb, var(--bg-elevated) 88%, var(--bg-panel));
+		box-shadow:
+			0 0 0 1px color-mix(in srgb, var(--magenta) 8%, transparent),
+			0 16px 48px color-mix(in srgb, var(--magenta) 12%, transparent);
+	}
+
+	.home-about__quick-lead {
+		margin: 0 0 0.85rem;
+		font-size: 0.8125rem;
+		font-weight: 700;
+		letter-spacing: 0.02em;
+		color: var(--ink);
+	}
+
+	.home-about__pills {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 0.45rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.home-about__pills a {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.65rem;
+		min-height: 2.85rem;
+		padding: 0.6rem 0.85rem;
+		border: 1px solid var(--line-soft);
+		border-radius: var(--radius-sm);
+		background: var(--bg-panel);
+		font-size: 0.875rem;
+		font-weight: 600;
+		color: var(--ink);
+		text-decoration: none;
+		transition:
+			border-color 0.2s ease,
+			background 0.2s ease,
+			transform 0.15s ease;
+	}
+
+	.home-about__pills a:hover {
+		border-color: color-mix(in srgb, var(--magenta) 38%, var(--line));
+		background: color-mix(in srgb, var(--bg-elevated) 92%, transparent);
+		transform: translateX(2px);
+	}
+
+	.home-about__pill-arrow {
+		flex-shrink: 0;
+		width: 0.5rem;
+		height: 0.5rem;
+		border-top: 2px solid var(--magenta-soft);
+		border-right: 2px solid var(--magenta-soft);
+		transform: rotate(45deg);
+		opacity: 0.9;
+	}
+
+	@media (max-width: 860px) {
+		.home-about__layout {
+			grid-template-columns: 1fr;
+		}
+
+		.home-about__pills {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+
+	@media (max-width: 520px) {
+		.home-about__pills {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

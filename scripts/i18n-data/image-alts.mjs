@@ -1,0 +1,42 @@
+/** Descriptive image alts — Google rejects empty or keyword-only alts. */
+export const DESCRIPTIVE_IMAGE_ALTS = {
+	hero: 'DBD Hacks hero — ESP and aimbot overlay in Dead by Daylight',
+	espWallhack: 'Wallhack outlines showing Survivors and Killers through walls',
+	aimbotCombat: 'Aimbot assist overlay during a Dead by Daylight trial',
+	teamFight: 'DBD Hacks combat overlay during a team fight',
+	playerEsp: 'Player ESP boxes and distance readouts in a DBD trial',
+	headerArt: 'Aimbot view and bone priority controls for DBD',
+	cheatsPackage: 'World ESP threat overlay for Dead by Daylight',
+	rebootFight: 'Aimbot assist during a DBD firefight',
+	battleRoyale: 'DBD Hacks in-trial overview for Windows PC',
+	battleRoyaleIsland: 'ESP markers for objective and exit gates in DBD',
+};
+
+/** Page-level image alt by pageId (EN source of truth). */
+export const PAGE_IMAGE_ALTS = {
+	home: 'DBD Hacks homepage hero — ESP and aimbot for Dead by Daylight',
+	'dbd-esp': 'DBD ESP player boxes and distance readouts in a trial',
+	'dbd-aimbot': 'DBD aimbot and aimbot controls on Windows PC',
+	features: 'DBD Hacks features — ESP, aimbot, and radar screenshots',
+	pricing: 'DBD Hacks store plans for monthly and lifetime licenses',
+	setup: 'DBD Hacks setup guide screenshot for Windows PC',
+	updates: 'DBD Hacks live status after EAC and game patches',
+	faq: 'DBD Hacks FAQ — delivery, setup, and update answers',
+	support: 'DBD Hacks support page for license and setup help',
+	undetected: 'DBD Hacks undetected status overview for Windows PC',
+	wallhack: 'DBD wallhack visibility through walls in a trial',
+	'world-esp': 'DBD World ESP overlay showing nearby threats',
+	eac: 'DBD Hacks maintenance after a EAC patch',
+	'cheats-2026': 'DBD Hacks product overview for Dead by Daylight',
+	hacks: 'DBD Hacks product page — ESP, aimbot, and radar',
+	'cheat-download': 'DBD Hacks download and install delivery flow',
+	'mod-menu': 'DBD Hacks in-game menu controls',
+	'skill-check': 'DBD aimbot FOV and smoothness settings',
+	'best-cheats': 'DBD Hacks overview for Dead by Daylight on PC',
+	'aimbot-hack': 'DBD aimbot hack controls and bone priority',
+	'esp-hack': 'DBD ESP hack boxes and objective markers',
+	'unlock-all': 'DBD Hacks license features overview',
+	privacy: 'DBD Hacks privacy policy page',
+	refund: 'DBD Hacks refund policy page',
+	terms: 'DBD Hacks terms of use page',
+};
