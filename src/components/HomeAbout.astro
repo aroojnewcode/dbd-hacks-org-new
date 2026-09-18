@@ -2,9 +2,10 @@
 import enHome from '../../public/locales/en/translation.json';
 import { getPageContent, getUi } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
-import type { LocaleCode } from '../data/i18n/locales';
+import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { siteConfig } from '../data/site';
 import { getT } from '../i18n/server';
+import { getCanonicalHomeAboutH1 } from '../data/i18n/canonical-h1';
 
 interface Props {
 	locale?: LocaleCode;
@@ -20,7 +21,7 @@ const en = locale === 'en';
 const h = en ? enHome.home : null;
 
 const eyebrow = en ? h!.aboutEyebrow : ui.nav.hacks;
-const title = en ? h!.aboutTitle : home.h1;
+const title = getCanonicalHomeAboutH1();
 const ledeBefore = en ? h!.aboutP1Before : `${home.intro} `;
 const storeLabel = en ? h!.aboutStore : ui.nav.store;
 const ledeMid = en ? h!.aboutP1Mid : ' — ';

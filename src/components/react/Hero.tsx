@@ -11,8 +11,10 @@ type Props = {
 	heroSizes: string;
 	heroWidth: number;
 	heroHeight: number;
-	/** When true, use brand EN hero keys; otherwise localized hero.* */
+	/** When true, use brand hero layout (EN headline + localized subtitle/chips). */
 	useBrandHero?: boolean;
+	/** English brand H1 line — same on every locale for SEO consistency. */
+	brandHeadline: string;
 };
 
 const chipKeys = [
@@ -76,9 +78,10 @@ function HeroInner({
 	heroWidth,
 	heroHeight,
 	useBrandHero = true,
+	brandHeadline,
 }: Props) {
 	const { t } = useTranslation();
-	const title = useBrandHero ? t('hero.title') : t('hero.accent');
+	const title = brandHeadline;
 	const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitle');
 	const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 	const priceFrom = t('hero.priceFrom');

@@ -9,6 +9,7 @@ import { dbdImages } from '../data/dbd';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage, isGameplayImageSrc } from '../data/page-images';
+import { getCanonicalPageH1 } from '../data/i18n/canonical-h1';
 
 interface Props {
 	locale: LocaleCode;
@@ -28,7 +29,7 @@ function localizeParagraphHtml(html: string): string {
 		.replace(/href="(\/[^"]+)"/g, (_, path: string) => `href="${localizeInternalHref(path, locale)}"`);
 }
 
-const heading = simple?.h1 ?? page.h1;
+const heading = getCanonicalPageH1(pageId);
 const intro = simple?.intro ?? page.intro;
 const sections = simple?.sections ?? page.sections;
 const ctaPrimaryLabel = simple?.ctaPrimary ?? page.ctaPrimary;
