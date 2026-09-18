@@ -270,7 +270,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Licensing, delivery, and EAC maintenance",
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. EAC maintenance rebuilds publish on the <a href=\"/updates/\">Updates page</a> after anti-cheat or game patches.",
-								"Monitor <a href=\"https://support.deadbydaylight.com/hc/\" target=\"_blank\" rel=\"noopener noreferrer\">Dead by Daylight Support</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@dbdhacks.net.",
+								"Monitor <a href=\"https://support.deadbydaylight.com/hc/\" target=\"_blank\" rel=\"noopener noreferrer\">Dead by Daylight Support</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@dbdhack.org.",
 								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/dbd-cheats/\">how undetected maintenance works</a>.",
 							],
 						},
@@ -422,7 +422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Delivery, pricing, and support",
 							paragraphs: [
 								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"/pricing/\">Pricing</a>.",
-								"Contact support@dbdhacks.net or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
+								"Contact support@dbdhack.org or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
 								"Refund eligibility is covered in the <a href=\"/refund-policy/\">Refund Policy</a>.",
 							],
 						},
@@ -460,7 +460,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Self-service resources",
 							paragraphs: [
 								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. EAC bypass notes live on the dedicated <a href=\"/updates/\">Easy Anti-Cheat page</a>.",
-								"Email: support@dbdhacks.net",
+								"Email: support@dbdhack.org",
 								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
 						},
@@ -651,7 +651,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Read the <a href=\"/dbd-cheats/\">DBD cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
 								"Also compare the <a href=\"/dbd-cheats/\">DBD cheats</a> checklist, <a href=\"/blog/dbd-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
-								"Support is available at support@dbdhacks.net via the <a href=\"/support/\">Support page</a>.",
+								"Support is available at support@dbdhack.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
 					],
@@ -971,9 +971,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				privacy: {
 					title: "Privacy Policy | DBD Hacks",
-					description: "Privacy policy for DBD Hacks. How we handle support emails, order data, and for dead by daylight cheats licenses on dbdhacks.net.",
+					description: "Privacy policy for DBD Hacks. How we handle support emails, order data, and for dead by daylight cheats licenses on dbdhack.org.",
 					h1: "Privacy Policy",
-					intro: "How DBD Hacks handles information when you browse dbdhacks.net or contact support about a DBD license.",
+					intro: "How DBD Hacks handles information when you browse dbdhack.org or contact support about a DBD license.",
 					imageAlt: "DBD Hacks privacy policy page",
 					galleryTitle: "DBD Hacks legal resources",
 					ctaPrimary: "Email support",
@@ -1002,8 +1002,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your choices and contact",
 							paragraphs: [
-								"You may request correction or deletion of support email data by contacting support@dbdhacks.net with your request details.",
-								"Policy updates publish on this page. Continued use of dbdhacks.net after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund-policy/\">Refund Policy</a>.",
+								"You may request correction or deletion of support email data by contacting support@dbdhack.org with your request details.",
+								"Policy updates publish on this page. Continued use of dbdhack.org after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund-policy/\">Refund Policy</a>.",
 							],
 						},
 					],
@@ -1037,7 +1037,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request a refund",
 							paragraphs: [
-								"Email support@dbdhacks.net with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
+								"Email support@dbdhack.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
 								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
@@ -1046,9 +1046,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				terms: {
 					title: "Terms of Use 2026 | DBD Hacks Rules",
-					description: "Terms of use for dbdhacks.net and DBD Hacks licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
+					description: "Terms of use for dbdhack.org and DBD Hacks licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
 					h1: "Terms of Use",
-					intro: "Terms governing use of dbdhacks.net and DBD Hacks licenses for DBD on Windows PC.",
+					intro: "Terms governing use of dbdhack.org and DBD Hacks licenses for DBD on Windows PC.",
 					imageAlt: "DBD Hacks terms of use page",
 					galleryTitle: "DBD Hacks legal pages",
 					ctaPrimary: "Email support",
@@ -1073,7 +1073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Changes and governing law",
 							paragraphs: [
 								"We may update these terms by posting revisions on this page. Continued use after changes constitutes acceptance.",
-								"Contact support@dbdhacks.net for questions. Related policies: <a href=\"/privacy-policy/\">Privacy</a> and <a href=\"/refund-policy/\">Refunds</a>.",
+								"Contact support@dbdhack.org for questions. Related policies: <a href=\"/privacy-policy/\">Privacy</a> and <a href=\"/refund-policy/\">Refunds</a>.",
 							],
 						},
 					],
@@ -1212,7 +1212,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1247,7 +1247,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1282,7 +1282,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1317,7 +1317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1352,7 +1352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1387,7 +1387,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1422,7 +1422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1457,7 +1457,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1492,7 +1492,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1527,7 +1527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1562,7 +1562,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1597,7 +1597,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1632,7 +1632,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1667,7 +1667,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1702,7 +1702,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1737,7 +1737,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1772,7 +1772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1807,7 +1807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1842,7 +1842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1877,7 +1877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1912,7 +1912,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout . Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat maintenance.",
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1921,7 +1921,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de privacidad | DBD Hacks",
 					description: "Política de privacidad for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Política de privacidad",
-					intro: "DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Política de privacidad for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Política de privacidad for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -1933,7 +1933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Información que recopilamos",
 							paragraphs: [
 								"DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -1946,8 +1946,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Tus derechos",
 							paragraphs: [
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
-								"Email: support@dbdhacks.net",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -1956,7 +1956,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de reembolso | DBD Hacks",
 					description: "Política de reembolso for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Política de reembolso",
-					intro: "DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Política de reembolso for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Política de reembolso for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -1981,8 +1981,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cómo solicitar",
 							paragraphs: [
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
-								"Email: support@dbdhacks.net",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -1991,7 +1991,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Términos de uso | DBD Hacks",
 					description: "Términos de uso for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Términos de uso",
-					intro: "DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Términos de uso for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks ofrece ESP wallhack, undefined y dbd aimbot indetectables para DBD en Windows PC. Términos de uso for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -2016,8 +2016,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cambios",
 							paragraphs: [
-								"Contacta support@dbdhacks.net para solicitudes legales o de soporte.",
-								"Email: support@dbdhacks.net",
+								"Contacta support@dbdhack.org para solicitudes legales o de soporte.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -2155,7 +2155,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2190,7 +2190,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2225,7 +2225,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2260,7 +2260,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2295,7 +2295,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2330,7 +2330,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2365,7 +2365,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2400,7 +2400,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2435,7 +2435,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2470,7 +2470,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2505,7 +2505,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2540,7 +2540,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2575,7 +2575,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2610,7 +2610,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2645,7 +2645,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2680,7 +2680,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2715,7 +2715,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2750,7 +2750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2785,7 +2785,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2820,7 +2820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2855,7 +2855,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout . Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2864,7 +2864,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politique de confidentialité | DBD Hacks",
 					description: "Politique de confidentialité for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politique de confidentialité",
-					intro: "DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Politique de confidentialité for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Politique de confidentialité for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -2876,7 +2876,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Informations collectées",
 							paragraphs: [
 								"DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -2889,8 +2889,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vos droits",
 							paragraphs: [
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
-								"Email: support@dbdhacks.net",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -2899,7 +2899,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politique de remboursement | DBD Hacks",
 					description: "Politique de remboursement for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politique de remboursement",
-					intro: "DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Politique de remboursement for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Politique de remboursement for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -2924,8 +2924,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Comment demander",
 							paragraphs: [
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
-								"Email: support@dbdhacks.net",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -2934,7 +2934,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Conditions d'utilisation | DBD Hacks",
 					description: "Conditions d'utilisation for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Conditions d'utilisation",
-					intro: "DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Conditions d'utilisation for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks combine ESP wallhack, undefined et dbd aimbot indétectables pour DBD sur PC Windows. Conditions d'utilisation for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -2959,8 +2959,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Modifications",
 							paragraphs: [
-								"Contactez support@dbdhacks.net pour le support ou les demandes légales.",
-								"Email: support@dbdhacks.net",
+								"Contactez support@dbdhack.org pour le support ou les demandes légales.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -3098,7 +3098,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3133,7 +3133,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3168,7 +3168,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3203,7 +3203,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3238,7 +3238,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3273,7 +3273,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3308,7 +3308,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3343,7 +3343,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3378,7 +3378,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3413,7 +3413,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3448,7 +3448,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3483,7 +3483,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3518,7 +3518,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3553,7 +3553,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3588,7 +3588,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3623,7 +3623,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3658,7 +3658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3693,7 +3693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3728,7 +3728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3763,7 +3763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3798,7 +3798,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über  Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3807,7 +3807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Datenschutz | DBD Hacks",
 					description: "Datenschutz for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Datenschutz",
-					intro: "DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Datenschutz for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Datenschutz for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -3819,7 +3819,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Erhobene Daten",
 							paragraphs: [
 								"DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -3832,8 +3832,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Ihre Rechte",
 							paragraphs: [
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -3842,7 +3842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Rückerstattung | DBD Hacks",
 					description: "Rückerstattung for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Rückerstattung",
-					intro: "DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Rückerstattung for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Rückerstattung for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -3867,8 +3867,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Anfrage stellen",
 							paragraphs: [
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -3877,7 +3877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Nutzungsbedingungen | DBD Hacks",
 					description: "Nutzungsbedingungen for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Nutzungsbedingungen",
-					intro: "DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Nutzungsbedingungen for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks bündelt ESP wallhack, undefined und dbd aimbot als undetected Paket für DBD auf Windows PC. Nutzungsbedingungen for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -3902,8 +3902,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Änderungen",
 							paragraphs: [
-								"support@dbdhacks.net für Support und rechtliche Anfragen.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org für Support und rechtliche Anfragen.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -4041,7 +4041,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4076,7 +4076,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4111,7 +4111,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4146,7 +4146,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4181,7 +4181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4216,7 +4216,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4251,7 +4251,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4286,7 +4286,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4321,7 +4321,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4356,7 +4356,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4391,7 +4391,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4426,7 +4426,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4461,7 +4461,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4496,7 +4496,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4531,7 +4531,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4566,7 +4566,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4601,7 +4601,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4636,7 +4636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4671,7 +4671,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4706,7 +4706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4741,7 +4741,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout . Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4750,7 +4750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de privacidade | DBD Hacks",
 					description: "Política de privacidade for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Política de privacidade",
-					intro: "DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Política de privacidade for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Política de privacidade for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -4762,7 +4762,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -4775,8 +4775,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
-								"Email: support@dbdhacks.net",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -4785,7 +4785,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de reembolso | DBD Hacks",
 					description: "Política de reembolso for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Política de reembolso",
-					intro: "DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Política de reembolso for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Política de reembolso for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -4810,8 +4810,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
-								"Email: support@dbdhacks.net",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -4820,7 +4820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termos de uso | DBD Hacks",
 					description: "Termos de uso for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termos de uso",
-					intro: "DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Termos de uso for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks reúne ESP wallhack, undefined e dbd aimbot indetectáveis para DBD no PC Windows. Termos de uso for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -4845,8 +4845,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Contacte support@dbdhacks.net para suporte ou questões legais.",
-								"Email: support@dbdhacks.net",
+								"Contacte support@dbdhack.org para suporte ou questões legais.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -4984,7 +4984,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5019,7 +5019,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5054,7 +5054,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5089,7 +5089,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5124,7 +5124,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5159,7 +5159,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5194,7 +5194,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5229,7 +5229,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5264,7 +5264,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5299,7 +5299,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5334,7 +5334,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5369,7 +5369,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5404,7 +5404,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5439,7 +5439,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5474,7 +5474,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5509,7 +5509,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5544,7 +5544,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5579,7 +5579,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5614,7 +5614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5649,7 +5649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5684,7 +5684,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout . Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5693,7 +5693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Informativa privacy | DBD Hacks",
 					description: "Informativa privacy for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Informativa privacy",
-					intro: "DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Informativa privacy for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Informativa privacy for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -5705,7 +5705,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -5718,8 +5718,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
-								"Email: support@dbdhacks.net",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -5728,7 +5728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica di rimborso | DBD Hacks",
 					description: "Politica di rimborso for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica di rimborso",
-					intro: "DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Politica di rimborso for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Politica di rimborso for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -5753,8 +5753,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
-								"Email: support@dbdhacks.net",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -5763,7 +5763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termini di utilizzo | DBD Hacks",
 					description: "Termini di utilizzo for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termini di utilizzo",
-					intro: "DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Termini di utilizzo for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks unisce ESP wallhack, undefined e dbd aimbot indetectable per DBD su PC Windows. Termini di utilizzo for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -5788,8 +5788,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Contatta support@dbdhacks.net per supporto o richieste legali.",
-								"Email: support@dbdhacks.net",
+								"Contatta support@dbdhack.org per supporto o richieste legali.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -5927,7 +5927,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -5962,7 +5962,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -5997,7 +5997,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6032,7 +6032,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6067,7 +6067,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6102,7 +6102,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6137,7 +6137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6172,7 +6172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6207,7 +6207,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6242,7 +6242,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6277,7 +6277,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6312,7 +6312,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6347,7 +6347,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6382,7 +6382,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6417,7 +6417,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6452,7 +6452,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6487,7 +6487,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6522,7 +6522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6557,7 +6557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6592,7 +6592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6627,7 +6627,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via  checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"support@dbdhacks.net voor support en juridische vragen.",
+								"support@dbdhack.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6636,7 +6636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Privacybeleid | DBD Hacks",
 					description: "Privacybeleid for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Privacybeleid",
-					intro: "DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Privacybeleid for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Privacybeleid for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -6648,7 +6648,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -6661,8 +6661,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net voor support en juridische vragen.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org voor support en juridische vragen.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -6671,7 +6671,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Restitutiebeleid | DBD Hacks",
 					description: "Restitutiebeleid for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Restitutiebeleid",
-					intro: "DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Restitutiebeleid for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Restitutiebeleid for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -6696,8 +6696,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net voor support en juridische vragen.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org voor support en juridische vragen.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -6706,7 +6706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Gebruiksvoorwaarden | DBD Hacks",
 					description: "Gebruiksvoorwaarden for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Gebruiksvoorwaarden",
-					intro: "DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Gebruiksvoorwaarden for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks bundelt ESP wallhack, undefined en dbd aimbot als undetected pakket voor DBD op Windows PC. Gebruiksvoorwaarden for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -6731,8 +6731,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net voor support en juridische vragen.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org voor support en juridische vragen.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -6870,7 +6870,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6905,7 +6905,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6940,7 +6940,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6975,7 +6975,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7010,7 +7010,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7045,7 +7045,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7080,7 +7080,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7115,7 +7115,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7150,7 +7150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7185,7 +7185,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7220,7 +7220,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7255,7 +7255,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7290,7 +7290,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7325,7 +7325,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7360,7 +7360,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7395,7 +7395,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7430,7 +7430,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7465,7 +7465,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7500,7 +7500,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7535,7 +7535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7570,7 +7570,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout . Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7579,7 +7579,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Polityka prywatności | DBD Hacks",
 					description: "Polityka prywatności for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Polityka prywatności",
-					intro: "DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Polityka prywatności for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Polityka prywatności for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -7591,7 +7591,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -7604,8 +7604,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -7614,7 +7614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Polityka zwrotów | DBD Hacks",
 					description: "Polityka zwrotów for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Polityka zwrotów",
-					intro: "DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Polityka zwrotów for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Polityka zwrotów for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -7639,8 +7639,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -7649,7 +7649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Warunki użytkowania | DBD Hacks",
 					description: "Warunki użytkowania for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Warunki użytkowania",
-					intro: "DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Warunki użytkowania for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks łączy ESP wallhack, undefined i dbd aimbot jako pakiet undetected dla DBD na PC Windows. Warunki użytkowania for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -7674,8 +7674,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net w sprawach wsparcia i prawnych.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org w sprawach wsparcia i prawnych.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -7813,7 +7813,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7848,7 +7848,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7883,7 +7883,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7918,7 +7918,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7953,7 +7953,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7988,7 +7988,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8023,7 +8023,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8058,7 +8058,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8093,7 +8093,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8128,7 +8128,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8163,7 +8163,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8198,7 +8198,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8233,7 +8233,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8268,7 +8268,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8303,7 +8303,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8338,7 +8338,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8373,7 +8373,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8408,7 +8408,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8443,7 +8443,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8478,7 +8478,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8513,7 +8513,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout . Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8522,7 +8522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Политика конфиденциальности | DBD Hacks",
 					description: "Политика конфиденциальности for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Политика конфиденциальности",
-					intro: "DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Политика конфиденциальности for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Политика конфиденциальности for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -8534,7 +8534,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -8547,8 +8547,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -8557,7 +8557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Политика возврата | DBD Hacks",
 					description: "Политика возврата for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Политика возврата",
-					intro: "DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Политика возврата for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Политика возврата for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -8582,8 +8582,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -8592,7 +8592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Условия использования | DBD Hacks",
 					description: "Условия использования for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Условия использования",
-					intro: "DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Условия использования for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks объединяет ESP wallhack, undefined и dbd aimbot в undetected пакете для DBD на Windows PC. Условия использования for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -8617,8 +8617,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net для поддержки и юридических вопросов.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org для поддержки и юридических вопросов.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -8756,7 +8756,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -8791,7 +8791,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -8826,7 +8826,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -8861,7 +8861,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -8896,7 +8896,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -8931,7 +8931,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -8966,7 +8966,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9001,7 +9001,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9036,7 +9036,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9071,7 +9071,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9106,7 +9106,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9141,7 +9141,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9176,7 +9176,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9211,7 +9211,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9246,7 +9246,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9281,7 +9281,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9316,7 +9316,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9351,7 +9351,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9386,7 +9386,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9421,7 +9421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9456,7 +9456,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								" checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@dbdhacks.net.",
+								"Destek ve yasal sorular için support@dbdhack.org.",
 							],
 						},
 					],
@@ -9465,7 +9465,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Gizlilik politikası | DBD Hacks",
 					description: "Gizlilik politikası for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Gizlilik politikası",
-					intro: "DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. Gizlilik politikası for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. Gizlilik politikası for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -9477,7 +9477,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -9490,8 +9490,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Destek ve yasal sorular için support@dbdhacks.net.",
-								"Email: support@dbdhacks.net",
+								"Destek ve yasal sorular için support@dbdhack.org.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -9500,7 +9500,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "İade politikası | DBD Hacks",
 					description: "İade politikası for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "İade politikası",
-					intro: "DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. İade politikası for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. İade politikası for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -9525,8 +9525,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Destek ve yasal sorular için support@dbdhacks.net.",
-								"Email: support@dbdhacks.net",
+								"Destek ve yasal sorular için support@dbdhack.org.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -9535,7 +9535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kullanım şartları | DBD Hacks",
 					description: "Kullanım şartları for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Kullanım şartları",
-					intro: "DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. Kullanım şartları for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks, DBD için Windows PC üzerinde ESP wallhack, undefined ve dbd aimbot undetected paket sunar. Kullanım şartları for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -9560,8 +9560,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Destek ve yasal sorular için support@dbdhacks.net.",
-								"Email: support@dbdhacks.net",
+								"Destek ve yasal sorular için support@dbdhack.org.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -9699,7 +9699,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9734,7 +9734,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9769,7 +9769,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9804,7 +9804,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9839,7 +9839,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9874,7 +9874,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9909,7 +9909,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9944,7 +9944,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9979,7 +9979,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10014,7 +10014,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10049,7 +10049,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10084,7 +10084,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10119,7 +10119,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10154,7 +10154,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10189,7 +10189,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10224,7 +10224,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10259,7 +10259,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10294,7 +10294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10329,7 +10329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10364,7 +10364,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10399,7 +10399,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout . خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10408,7 +10408,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "سياسة الخصوصية | DBD Hacks",
 					description: "سياسة الخصوصية for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "سياسة الخصوصية",
-					intro: "DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. سياسة الخصوصية for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. سياسة الخصوصية for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -10420,7 +10420,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "المعلومات التي نجمعها",
 							paragraphs: [
 								"DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -10433,8 +10433,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "حقوقك",
 							paragraphs: [
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -10443,7 +10443,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "سياسة الاسترداد | DBD Hacks",
 					description: "سياسة الاسترداد for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "سياسة الاسترداد",
-					intro: "DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. سياسة الاسترداد for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. سياسة الاسترداد for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -10468,8 +10468,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "كيفية الطلب",
 							paragraphs: [
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -10478,7 +10478,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "شروط الاستخدام | DBD Hacks",
 					description: "شروط الاستخدام for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "شروط الاستخدام",
-					intro: "DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. شروط الاستخدام for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks يجمع ESP wallhack وundefined وdbd aimbot غير مكتشف لـ DBD على Windows PC. شروط الاستخدام for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -10503,8 +10503,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "التغييرات",
 							paragraphs: [
-								"support@dbdhacks.net للدعم والطلبات القانونية.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org للدعم والطلبات القانونية.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -10642,7 +10642,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10677,7 +10677,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10712,7 +10712,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10747,7 +10747,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10782,7 +10782,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10817,7 +10817,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10852,7 +10852,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10887,7 +10887,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10922,7 +10922,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10957,7 +10957,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -10992,7 +10992,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11027,7 +11027,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11062,7 +11062,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11097,7 +11097,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11132,7 +11132,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11167,7 +11167,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11202,7 +11202,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11237,7 +11237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11272,7 +11272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11307,7 +11307,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11342,7 +11342,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								" checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"サポート・法務: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
 							],
 						},
 					],
@@ -11351,7 +11351,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "プライバシーポリシー | DBD Hacks",
 					description: "プライバシーポリシー for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "プライバシーポリシー",
-					intro: "DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。プライバシーポリシー for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。プライバシーポリシー for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -11363,7 +11363,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "収集する情報",
 							paragraphs: [
 								"DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -11376,8 +11376,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "あなたの権利",
 							paragraphs: [
-								"サポート・法務: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -11386,7 +11386,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "返金ポリシー | DBD Hacks",
 					description: "返金ポリシー for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "返金ポリシー",
-					intro: "DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。返金ポリシー for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。返金ポリシー for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -11411,8 +11411,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "申請方法",
 							paragraphs: [
-								"サポート・法務: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -11421,7 +11421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "利用規約 | DBD Hacks",
 					description: "利用規約 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "利用規約",
-					intro: "DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。利用規約 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD HacksはDBD向けWindows PC用ESP wallhack、undefined、dbd aimbotのundetectedパッケージです。利用規約 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -11446,8 +11446,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "変更",
 							paragraphs: [
-								"サポート・法務: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"サポート・法務: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -11585,7 +11585,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11620,7 +11620,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11655,7 +11655,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11690,7 +11690,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11725,7 +11725,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11760,7 +11760,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11795,7 +11795,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11830,7 +11830,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11865,7 +11865,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11900,7 +11900,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11935,7 +11935,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -11970,7 +11970,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12005,7 +12005,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12040,7 +12040,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12075,7 +12075,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12110,7 +12110,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12145,7 +12145,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12180,7 +12180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12215,7 +12215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12250,7 +12250,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12285,7 +12285,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								" checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"지원 및 법무: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
 							],
 						},
 					],
@@ -12294,7 +12294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "개인정보 처리방침 | DBD Hacks",
 					description: "개인정보 처리방침 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "개인정보 처리방침",
-					intro: "DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. 개인정보 처리방침 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. 개인정보 처리방침 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -12306,7 +12306,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -12319,8 +12319,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"지원 및 법무: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -12329,7 +12329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "환불 정책 | DBD Hacks",
 					description: "환불 정책 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "환불 정책",
-					intro: "DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. 환불 정책 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. 환불 정책 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -12354,8 +12354,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"지원 및 법무: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -12364,7 +12364,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "이용 약관 | DBD Hacks",
 					description: "이용 약관 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "이용 약관",
-					intro: "DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. 이용 약관 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks는 DBD Windows PC용 ESP wallhack, undefined, dbd aimbot undetected 패키지입니다. 이용 약관 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -12389,8 +12389,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"지원 및 법무: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"지원 및 법무: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -12528,7 +12528,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12563,7 +12563,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12598,7 +12598,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12633,7 +12633,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12668,7 +12668,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12703,7 +12703,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12738,7 +12738,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12773,7 +12773,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12808,7 +12808,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12843,7 +12843,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12878,7 +12878,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12913,7 +12913,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12948,7 +12948,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -12983,7 +12983,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13018,7 +13018,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13053,7 +13053,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13088,7 +13088,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13123,7 +13123,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13158,7 +13158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13193,7 +13193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13228,7 +13228,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过 checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"支持与法务：support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
 							],
 						},
 					],
@@ -13237,7 +13237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "隐私政策 | DBD Hacks",
 					description: "隐私政策 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "隐私政策",
-					intro: "DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。隐私政策 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。隐私政策 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -13249,7 +13249,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -13262,8 +13262,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"支持与法务：support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -13272,7 +13272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "退款政策 | DBD Hacks",
 					description: "退款政策 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "退款政策",
-					intro: "DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。退款政策 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。退款政策 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -13297,8 +13297,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"支持与法务：support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -13307,7 +13307,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "使用条款 | DBD Hacks",
 					description: "使用条款 for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "使用条款",
-					intro: "DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。使用条款 for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks为DBDWindows PC提供ESP wallhack、undefined和dbd aimbotundetected套餐。使用条款 for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -13332,8 +13332,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"支持与法务：support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"支持与法务：support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -13471,7 +13471,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13506,7 +13506,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13541,7 +13541,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13576,7 +13576,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13611,7 +13611,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13646,7 +13646,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13681,7 +13681,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13716,7 +13716,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13751,7 +13751,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13786,7 +13786,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13821,7 +13821,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13856,7 +13856,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13891,7 +13891,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13926,7 +13926,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13961,7 +13961,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -13996,7 +13996,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -14031,7 +14031,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -14066,7 +14066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -14101,7 +14101,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -14136,7 +14136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -14171,7 +14171,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								" checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"सहायता: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
 							],
 						},
 					],
@@ -14180,7 +14180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "गोपनीयता नीति | DBD Hacks",
 					description: "गोपनीयता नीति for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "गोपनीयता नीति",
-					intro: "DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। गोपनीयता नीति for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। गोपनीयता नीति for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -14192,7 +14192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -14205,8 +14205,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"सहायता: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -14215,7 +14215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "रिफंड नीति | DBD Hacks",
 					description: "रिफंड नीति for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "रिफंड नीति",
-					intro: "DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। रिफंड नीति for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। रिफंड नीति for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -14240,8 +14240,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"सहायता: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -14250,7 +14250,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "उपयोग की शर्तें | DBD Hacks",
 					description: "उपयोग की शर्तें for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "उपयोग की शर्तें",
-					intro: "DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। उपयोग की शर्तें for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks DBD के लिए Windows PC पर ESP wallhack, undefined और dbd aimbot undetected पैकेज देता है। उपयोग की शर्तें for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -14275,8 +14275,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"सहायता: support@dbdhacks.net",
-								"Email: support@dbdhacks.net",
+								"सहायता: support@dbdhack.org",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -14414,7 +14414,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14449,7 +14449,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14484,7 +14484,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14519,7 +14519,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14554,7 +14554,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14589,7 +14589,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14624,7 +14624,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14659,7 +14659,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14694,7 +14694,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14729,7 +14729,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14764,7 +14764,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14799,7 +14799,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14834,7 +14834,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14869,7 +14869,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14904,7 +14904,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14939,7 +14939,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14974,7 +14974,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15009,7 +15009,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15044,7 +15044,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15079,7 +15079,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15114,7 +15114,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout . Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"support@dbdhacks.net untuk dukungan dan legal.",
+								"support@dbdhack.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15123,7 +15123,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kebijakan privasi | DBD Hacks",
 					description: "Kebijakan privasi for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Kebijakan privasi",
-					intro: "DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Kebijakan privasi for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Kebijakan privasi for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -15135,7 +15135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -15148,8 +15148,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net untuk dukungan dan legal.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org untuk dukungan dan legal.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -15158,7 +15158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kebijakan refund | DBD Hacks",
 					description: "Kebijakan refund for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Kebijakan refund",
-					intro: "DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Kebijakan refund for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Kebijakan refund for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -15183,8 +15183,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net untuk dukungan dan legal.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org untuk dukungan dan legal.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -15193,7 +15193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Syarat penggunaan | DBD Hacks",
 					description: "Syarat penggunaan for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Syarat penggunaan",
-					intro: "DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Syarat penggunaan for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks menyediakan ESP wallhack, undefined, dan dbd aimbot undetected untuk DBD di PC Windows. Syarat penggunaan for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -15218,8 +15218,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net untuk dukungan dan legal.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org untuk dukungan dan legal.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -15357,7 +15357,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15392,7 +15392,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15427,7 +15427,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15462,7 +15462,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15497,7 +15497,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15532,7 +15532,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15567,7 +15567,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15602,7 +15602,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15637,7 +15637,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15672,7 +15672,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15707,7 +15707,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15742,7 +15742,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15777,7 +15777,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15812,7 +15812,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15847,7 +15847,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15882,7 +15882,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15917,7 +15917,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15952,7 +15952,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15987,7 +15987,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16022,7 +16022,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16057,7 +16057,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout  แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"support@dbdhacks.net สำหรับการสนับสนุน",
+								"support@dbdhack.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16066,7 +16066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "นโยบายความเป็นส่วนตัว | DBD Hacks",
 					description: "นโยบายความเป็นส่วนตัว for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "นโยบายความเป็นส่วนตัว",
-					intro: "DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC นโยบายความเป็นส่วนตัว for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC นโยบายความเป็นส่วนตัว for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -16078,7 +16078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -16091,8 +16091,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net สำหรับการสนับสนุน",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org สำหรับการสนับสนุน",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -16101,7 +16101,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "นโยบายการคืนเงิน | DBD Hacks",
 					description: "นโยบายการคืนเงิน for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "นโยบายการคืนเงิน",
-					intro: "DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC นโยบายการคืนเงิน for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC นโยบายการคืนเงิน for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -16126,8 +16126,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net สำหรับการสนับสนุน",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org สำหรับการสนับสนุน",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -16136,7 +16136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "ข้อกำหนดการใช้งาน | DBD Hacks",
 					description: "ข้อกำหนดการใช้งาน for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "ข้อกำหนดการใช้งาน",
-					intro: "DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC ข้อกำหนดการใช้งาน for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks รวม ESP wallhack, undefined และ dbd aimbot แบบ undetected สำหรับ DBD บน Windows PC ข้อกำหนดการใช้งาน for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -16161,8 +16161,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net สำหรับการสนับสนุน",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org สำหรับการสนับสนุน",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -16300,7 +16300,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16335,7 +16335,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16370,7 +16370,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16405,7 +16405,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16440,7 +16440,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16475,7 +16475,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16510,7 +16510,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16545,7 +16545,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16580,7 +16580,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16615,7 +16615,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16650,7 +16650,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16685,7 +16685,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16720,7 +16720,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16755,7 +16755,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16790,7 +16790,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16825,7 +16825,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16860,7 +16860,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16895,7 +16895,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16930,7 +16930,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16965,7 +16965,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -17000,7 +17000,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout . Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -17009,7 +17009,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Chính sách bảo mật | DBD Hacks",
 					description: "Chính sách bảo mật for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Chính sách bảo mật",
-					intro: "DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Chính sách bảo mật for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Chính sách bảo mật for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -17021,7 +17021,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -17034,8 +17034,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -17044,7 +17044,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Chính sách hoàn tiền | DBD Hacks",
 					description: "Chính sách hoàn tiền for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Chính sách hoàn tiền",
-					intro: "DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Chính sách hoàn tiền for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Chính sách hoàn tiền for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -17069,8 +17069,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -17079,7 +17079,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Điều khoản sử dụng | DBD Hacks",
 					description: "Điều khoản sử dụng for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Điều khoản sử dụng",
-					intro: "DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Điều khoản sử dụng for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks cung cấp ESP wallhack, undefined và dbd aimbot undetected cho DBD trên PC Windows. Điều khoản sử dụng for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -17104,8 +17104,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net cho hỗ trợ và pháp lý.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org cho hỗ trợ và pháp lý.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -17243,7 +17243,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17278,7 +17278,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17313,7 +17313,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17348,7 +17348,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17383,7 +17383,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17418,7 +17418,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17453,7 +17453,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17488,7 +17488,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17523,7 +17523,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17558,7 +17558,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17593,7 +17593,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17628,7 +17628,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17663,7 +17663,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17698,7 +17698,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17733,7 +17733,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17768,7 +17768,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17803,7 +17803,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17838,7 +17838,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17873,7 +17873,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17908,7 +17908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17943,7 +17943,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout . Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"support@dbdhacks.net для підтримки та правових питань.",
+								"support@dbdhack.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17952,7 +17952,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Політика конфіденційності | DBD Hacks",
 					description: "Політика конфіденційності for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Політика конфіденційності",
-					intro: "DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Політика конфіденційності for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Політика конфіденційності for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -17964,7 +17964,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -17977,8 +17977,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net для підтримки та правових питань.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org для підтримки та правових питань.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -17987,7 +17987,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Політика повернення | DBD Hacks",
 					description: "Політика повернення for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Політика повернення",
-					intro: "DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Політика повернення for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Політика повернення for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -18012,8 +18012,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net для підтримки та правових питань.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org для підтримки та правових питань.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -18022,7 +18022,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Умови використання | DBD Hacks",
 					description: "Умови використання for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Умови використання",
-					intro: "DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Умови використання for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks об'єднує ESP wallhack, undefined і dbd aimbot у undetected пакеті для DBD на Windows PC. Умови використання for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -18047,8 +18047,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net для підтримки та правових питань.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org для підтримки та правових питань.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -18186,7 +18186,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18221,7 +18221,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18256,7 +18256,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18291,7 +18291,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18326,7 +18326,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18361,7 +18361,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18396,7 +18396,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18431,7 +18431,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18466,7 +18466,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18501,7 +18501,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18536,7 +18536,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18571,7 +18571,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18606,7 +18606,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18641,7 +18641,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18676,7 +18676,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18711,7 +18711,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18746,7 +18746,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18781,7 +18781,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18816,7 +18816,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18851,7 +18851,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18886,7 +18886,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout . Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"support@dbdhacks.net pro podporu a právní dotazy.",
+								"support@dbdhack.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18895,7 +18895,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Zásady ochrany soukromí | DBD Hacks",
 					description: "Zásady ochrany soukromí for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Zásady ochrany soukromí",
-					intro: "DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Zásady ochrany soukromí for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Zásady ochrany soukromí for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -18907,7 +18907,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -18920,8 +18920,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net pro podporu a právní dotazy.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org pro podporu a právní dotazy.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -18930,7 +18930,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Zásady vrácení peněz | DBD Hacks",
 					description: "Zásady vrácení peněz for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Zásady vrácení peněz",
-					intro: "DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Zásady vrácení peněz for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Zásady vrácení peněz for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -18955,8 +18955,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net pro podporu a právní dotazy.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org pro podporu a právní dotazy.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -18965,7 +18965,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Podmínky použití | DBD Hacks",
 					description: "Podmínky použití for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Podmínky použití",
-					intro: "DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Podmínky použití for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks spojuje ESP wallhack, undefined a dbd aimbot jako undetected balíček pro DBD na Windows PC. Podmínky použití for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -18990,8 +18990,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net pro podporu a právní dotazy.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org pro podporu a právní dotazy.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -19129,7 +19129,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19164,7 +19164,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19199,7 +19199,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19234,7 +19234,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19269,7 +19269,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19304,7 +19304,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19339,7 +19339,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19374,7 +19374,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19409,7 +19409,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19444,7 +19444,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19479,7 +19479,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19514,7 +19514,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19549,7 +19549,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19584,7 +19584,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19619,7 +19619,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19654,7 +19654,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19689,7 +19689,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19724,7 +19724,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19759,7 +19759,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19794,7 +19794,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19829,7 +19829,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout . Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"support@dbdhacks.net pentru suport și legal.",
+								"support@dbdhack.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19838,7 +19838,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica de confidențialitate | DBD Hacks",
 					description: "Politica de confidențialitate for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica de confidențialitate",
-					intro: "DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Politica de confidențialitate for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Politica de confidențialitate for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -19850,7 +19850,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -19863,8 +19863,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net pentru suport și legal.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org pentru suport și legal.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -19873,7 +19873,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica de rambursare | DBD Hacks",
 					description: "Politica de rambursare for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica de rambursare",
-					intro: "DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Politica de rambursare for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Politica de rambursare for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -19898,8 +19898,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net pentru suport și legal.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org pentru suport și legal.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -19908,7 +19908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termeni de utilizare | DBD Hacks",
 					description: "Termeni de utilizare for DBD Hacks — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termeni de utilizare",
-					intro: "DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Termeni de utilizare for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks combină ESP wallhack, undefined și dbd aimbot undetected pentru DBD pe PC Windows. Termeni de utilizare for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -19933,8 +19933,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net pentru suport și legal.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org pentru suport și legal.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -20072,7 +20072,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20107,7 +20107,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20142,7 +20142,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20177,7 +20177,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20212,7 +20212,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20247,7 +20247,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20282,7 +20282,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20317,7 +20317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20352,7 +20352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20387,7 +20387,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20422,7 +20422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20457,7 +20457,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20492,7 +20492,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20527,7 +20527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20562,7 +20562,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20597,7 +20597,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20632,7 +20632,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20667,7 +20667,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20702,7 +20702,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20737,7 +20737,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20772,7 +20772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via  checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"support@dbdhacks.net för support och juridik.",
+								"support@dbdhack.org för support och juridik.",
 							],
 						},
 					],
@@ -20781,7 +20781,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Integritetspolicy | DBD Hacks",
 					description: "Integritetspolicy for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Integritetspolicy",
-					intro: "DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Integritetspolicy for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Integritetspolicy for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -20793,7 +20793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Contact email,  order references, and basic site security data.",
-								"Payment details are processed by  checkout — not stored on dbdhacks.net.",
+								"Payment details are processed by  checkout — not stored on dbdhack.org.",
 							],
 						},
 						{
@@ -20806,8 +20806,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@dbdhacks.net för support och juridik.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org för support och juridik.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -20816,7 +20816,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Återbetalningspolicy | DBD Hacks",
 					description: "Återbetalningspolicy for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Återbetalningspolicy",
-					intro: "DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Återbetalningspolicy for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Återbetalningspolicy for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-gameplay.webp",
@@ -20841,8 +20841,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@dbdhacks.net för support och juridik.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org för support och juridik.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],
@@ -20851,7 +20851,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Användarvillkor | DBD Hacks",
 					description: "Användarvillkor for DBD Hacks — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Användarvillkor",
-					intro: "DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Användarvillkor for dbdhacks.net and Dead by Daylight licenses.",
+					intro: "DBD Hacks kombinerar ESP wallhack, undefined och dbd aimbot som undetected paket för DBD på Windows PC. Användarvillkor for dbdhack.org and Dead by Daylight licenses.",
 					imageAlt: "dead by daylight cheats",
 					galleryTitle: "dead by daylight cheats",
 					heroImage: "/images/dbd-screenshot-mod-menu.webp",
@@ -20876,8 +20876,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@dbdhacks.net för support och juridik.",
-								"Email: support@dbdhacks.net",
+								"support@dbdhack.org för support och juridik.",
+								"Email: support@dbdhack.org",
 							],
 						},
 					],

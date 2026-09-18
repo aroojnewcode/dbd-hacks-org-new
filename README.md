@@ -1,6 +1,6 @@
 # DBD Hacks — Marketing Site
 
-Static Astro 7 site for [dbdhacks.net](https://dbdhacks.net). Primary SEO keyword: **dead by daylight cheats** (secondary: dead by daylight cheats, aimbot, ESP).
+Static Astro 7 site for [dbdhack.org](https://dbdhack.org). Primary SEO keyword: **dead by daylight cheats** (secondary: dead by daylight cheats, aimbot, ESP).
 
 ## Stack
 
@@ -29,7 +29,7 @@ npm run build:validate
 2. Connect this repo or upload `dist/` after `npm run build`
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Add custom domain **dbdhacks.net** (apex) and redirect **www** → apex
+5. Add custom domain **dbdhack.org** (apex) and redirect **www** → apex
 6. Enable SSL **Always Use HTTPS**
 
 CLI deploy:
@@ -45,4 +45,4 @@ npm run pages:deploy
 
 ## License
 
-Private — for dbdhacks.net deployment only.
+Private — for dbdhack.org deployment only.

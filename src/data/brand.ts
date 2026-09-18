@@ -9,10 +9,10 @@ export const brand = {
 	/** Short product label if needed */
 	shortName: 'DBD',
 	/** Canonical origin — no trailing slash */
-	url: 'https://dbdhacks.net',
+	url: 'https://dbdhack.org',
 	locale: 'en',
 	market: 'Worldwide',
-	supportEmail: 'support@dbdhacks.net',
+	supportEmail: 'support@dbdhack.org',
 	checkoutUrl: 'https://zadeyo.com/go/UROOJ?to=%2Fproducts%2Fdbd',
 
 	/** Game this template instance targets */

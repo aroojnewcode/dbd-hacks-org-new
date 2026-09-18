@@ -21,7 +21,7 @@ const REPLACEMENTS = [
 	['dbd-world-esp', 'dbd-world-esp'],
 	['dbd-cheats-2026', 'dbd-cheats-2026'],
 	['eac-bypass', 'eac-bypass'],
-	['dbdhacks.net', 'dbdhacks.net'],
+	['dbdhack.org', 'dbdhack.org'],
 	['trucos-dbd', 'trucos-dbd'],
 	['triche-dbd', 'triche-dbd'],
 	['dbd-cheats', 'dbd-cheats-cheats'],

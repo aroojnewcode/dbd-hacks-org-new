@@ -1,11 +1,11 @@
-# Deploy dbdhacks.net
+# Deploy dbdhack.org
 
-Step-by-step guide to deploy the DBD Hacks static site to **dbdhacks.net** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
+Step-by-step guide to deploy the DBD Hacks static site to **dbdhack.org** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
 
 ## Prerequisites
 
 - Node.js **≥ 22.12.0**
-- Cloudflare account with access to **dbdhacks.net** DNS
+- Cloudflare account with access to **dbdhack.org** DNS
 - Wrangler CLI (included as dev dependency): `npx wrangler login`
 
 ## 1. Build and validate locally
@@ -48,9 +48,9 @@ This runs `wrangler pages deploy dist --project-name=dbdhacks` (see `wrangler.to
 
 ## 3. Custom domain and DNS
 
-Add **dbdhacks.net** as the primary custom domain on the Pages project.
+Add **dbdhack.org** as the primary custom domain on the Pages project.
 
-### Apex (dbdhacks.net)
+### Apex (dbdhack.org)
 
 In **Cloudflare DNS** for the zone:
 
@@ -64,11 +64,11 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
 2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.dbdhacks.net/*`
-   - **Target:** `https://dbdhacks.net/${1}`
+   - **Source:** `www.dbdhack.org/*`
+   - **Target:** `https://dbdhack.org/${1}`
    - **Status:** 301
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`dbdhacks.net`, `.net`, `.com`), and legacy path redirects.
+The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`dbdhack.org`, `.net`, `.com`), and legacy path redirects.
 
 ### SSL / HTTPS
 
@@ -80,31 +80,31 @@ The deployed `functions/_middleware.js` also enforces apex canonical host, legac
 
 Verify these URLs return **200** with correct content:
 
-- `https://dbdhacks.net/`
-- `https://dbdhacks.net/es/`
-- `https://dbdhacks.net/dbd-cheats/`
-- `https://dbdhacks.net/dbd-aimbot/`
-- `https://dbdhacks.net/sitemap.xml`
-- `https://dbdhacks.net/robots.txt`
+- `https://dbdhack.org/`
+- `https://dbdhack.org/es/`
+- `https://dbdhack.org/dbd-cheats/`
+- `https://dbdhack.org/dbd-aimbot/`
+- `https://dbdhack.org/sitemap.xml`
+- `https://dbdhack.org/robots.txt`
 
 Verify redirects:
 
-- `http://dbdhacks.net` → `https://dbdhacks.net` (301)
-- `https://www.dbdhacks.net` → `https://dbdhacks.net` (301)
-- Legacy domains (e.g. `dbdhacks.net`) → `https://dbdhacks.net` (301)
+- `http://dbdhack.org` → `https://dbdhack.org` (301)
+- `https://www.dbdhack.org` → `https://dbdhack.org` (301)
+- Legacy domains (e.g. `dbdhack.org`) → `https://dbdhack.org` (301)
 - `/sitemap-index.xml` → `/sitemap.xml` (301)
 - Legacy paths (e.g. `/fortnite-hacks/`) → DBD equivalents (301)
 
 ## 5. Google Search Console
 
 1. Go to [Google Search Console](https://search.google.com/search-console).
-2. **Add property** → choose **Domain** → enter `dbdhacks.net`.
+2. **Add property** → choose **Domain** → enter `dbdhack.org`.
 3. Verify ownership via the **DNS TXT record** Cloudflare provides (add in Cloudflare DNS, wait for propagation, then confirm in GSC).
 4. After verification, open **Sitemaps** and submit:
    ```
-   https://dbdhacks.net/sitemap.xml
+   https://dbdhack.org/sitemap.xml
    ```
-   Remove any legacy submissions (`sitemap-index.xml`, old `dbdhacks.net` URLs).
+   Remove any legacy submissions (`sitemap-index.xml`, old `dbdhack.org` URLs).
 5. Use **URL Inspection** to request indexing for:
    - Homepage (`/`)
    - Pillar page (`/dbd-cheats/`)
@@ -126,11 +126,11 @@ Verify redirects:
 
 - [ ] `npm run build:validate` passes locally
 - [ ] Cloudflare Pages project attached to this repo
-- [ ] Custom domain `dbdhacks.net` attached and active
+- [ ] Custom domain `dbdhack.org` attached and active
 - [ ] `www` redirects to apex
-- [ ] Legacy domains 301 to `dbdhacks.net`
+- [ ] Legacy domains 301 to `dbdhack.org`
 - [ ] Always Use HTTPS enabled
-- [ ] `robots.txt` and sitemaps serve from `https://dbdhacks.net`
+- [ ] `robots.txt` and sitemaps serve from `https://dbdhack.org`
 - [ ] Google Search Console domain verified
 - [ ] `sitemap.xml` submitted in GSC
 - [ ] Homepage and `/dbd-cheats/` requested for indexing

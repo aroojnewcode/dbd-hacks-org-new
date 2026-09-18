@@ -32,7 +32,7 @@ const UI_REPLACEMENTS = [
 	['Verdansk', 'Verdansk'],
 	['killer-side', 'killer-side'],
 	['exit gate', 'exit gate'],
-	['dbdhacks.net', 'dbdhacks.net'],
+	['dbdhack.org', 'dbdhack.org'],
 	['Trucos DBD', 'Trucos Dead by Daylight'],
 	['Triches DBD', 'Triches Dead by Daylight'],
 	['Cheats DBD', 'Cheats Dead by Daylight'],

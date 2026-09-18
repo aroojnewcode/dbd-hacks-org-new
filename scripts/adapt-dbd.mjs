@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * One-time migration: Tarkov Cheats → DBD Hacks (Dead by Daylight).
- * Domain: dbdhacks.net
+ * Domain: dbdhack.org
  * Run from project root: node scripts/adapt-dbd.mjs
  */
 import { readFile, writeFile, readdir, rename } from 'node:fs/promises';
@@ -30,11 +30,11 @@ const RENAME_PAGE_DIRS = [
 
 /** Ordered replacements — specific patterns first. */
 const REPLACEMENTS = [
-	['https://tarkovcheats.org', 'https://dbdhacks.net'],
-	['https://www.tarkovcheats.org', 'https://www.dbdhacks.net'],
-	['www.tarkovcheats.org', 'www.dbdhacks.net'],
-	['tarkovcheats.org', 'dbdhacks.net'],
-	['support@tarkovcheats.org', 'support@dbdhacks.net'],
+	['https://tarkovcheats.org', 'https://dbdhack.org'],
+	['https://www.tarkovcheats.org', 'https://www.dbdhack.org'],
+	['www.tarkovcheats.org', 'www.dbdhack.org'],
+	['tarkovcheats.org', 'dbdhack.org'],
+	['support@tarkovcheats.org', 'support@dbdhack.org'],
 	['/products/escape-from-tarkov', '/products/dbd-cheats'],
 	['project-name=tarkovcheats', 'project-name=dbdhacks'],
 	['project-name=besttarkovcheats', 'project-name=dbdhacks'],
@@ -301,7 +301,7 @@ async function renameImages() {
 }
 
 async function main() {
-	console.log('Adapting Tarkov Cheats → DBD Hacks (dbdhacks.net)...\n');
+	console.log('Adapting Tarkov Cheats → DBD Hacks (dbdhack.org)...\n');
 	await renamePageDirs();
 	await renameDataFile();
 	await renameScripts();

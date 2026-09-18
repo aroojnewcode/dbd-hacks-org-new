@@ -28,7 +28,7 @@ const REPLACEMENTS = [
 	['Dead by Daylight', 'Dead by Daylight'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
 	['eac', 'eac'],
-	['dbdhacks.net', 'dbdhacks.net'],
+	['dbdhack.org', 'dbdhack.org'],
 	['operatorEsp', 'playerEsp'],
 	['exit gateFight', 'rebootFight'],
 	['alMazrah', 'battleRoyaleIsland'],

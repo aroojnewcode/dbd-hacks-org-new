@@ -95,7 +95,7 @@ export const blogUi: Record<
 	en: {
 		blogTitle: 'DBD Hacks Blog | Raid Guides',
 		blogDescription:
-			'Dead by Daylight guides — trial tips, ESP, aimbot notes, perk builds, and EAC update coverage. English blog at dbdhacks.net/blog/.',
+			'Dead by Daylight guides — trial tips, ESP, aimbot notes, perk builds, and EAC update coverage. English blog at dbdhack.org/blog/.',
 		blogH1: 'DBD Hacks Intel',
 		blogIntro:
 			'Short Dead by Daylight guides for Survivor and Killer sides. Pair these tips with the DBD Hacks product pages when you need ESP, aimbot, or radar.',

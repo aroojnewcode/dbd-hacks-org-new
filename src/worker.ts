@@ -1,9 +1,9 @@
 /**
  * Cloudflare Worker — host canonicalization before static assets.
- * Canonical site: https://dbdhacks.net (matches brand.url)
+ * Canonical site: https://dbdhack.org (matches brand.url)
  *
- * Requires DNS: CNAME `www` → `dbdhacks.net` (proxied) AND
- * Workers custom domain `www.dbdhacks.net` attached — otherwise
+ * Requires DNS: CNAME `www` → `dbdhack.org` (proxied) AND
+ * Workers custom domain `www.dbdhack.org` attached — otherwise
  * www is NXDOMAIN and Seobility fails the www/non-www check.
  */
 import cannibalRedirects from '../functions/cannibal-redirects.json';
@@ -12,7 +12,7 @@ export interface Env {
 	ASSETS: Fetcher;
 }
 
-const CANONICAL_HOST = 'dbdhacks.net';
+const CANONICAL_HOST = 'dbdhack.org';
 const CANNIBAL_REDIRECTS: Record<string, string> = cannibalRedirects;
 const PATH_REDIRECTS: Record<string, string> = {
 	'/sitemap-index.xml': '/sitemap.xml',
@@ -41,7 +41,14 @@ const PATH_REDIRECTS: Record<string, string> = {
 };
 
 /** Old apex still 301 → current canonical. */
-const LEGACY_HOSTS = new Set(['bestdbdcheats.com', 'www.bestdbdcheats.com']);
+const LEGACY_HOSTS = new Set([
+	'bestdbdcheats.com',
+	'www.bestdbdcheats.com',
+	'dbdhacks.net',
+	'www.dbdhacks.net',
+	'dbdhacks.org',
+	'www.dbdhacks.org',
+]);
 
 function canonicalUrl(request: Request): URL | null {
 	const url = new URL(request.url);

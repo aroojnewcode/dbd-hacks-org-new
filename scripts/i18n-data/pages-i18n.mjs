@@ -302,7 +302,7 @@ function buildLegal(locale, pageKey, kind) {
 		title: clampTitle(stripFromMeta(`${h1} | DBD Hacks`)),
 		description: clampDesc(stripFromMeta(`${h1} for DBD Hacks — ESP wallhack, Aimbot, ${p.win}.`)),
 		h1,
-		intro: p.s1(`${h1} for dbdhacks.net and Dead by Daylight licenses.`),
+		intro: p.s1(`${h1} for dbdhack.org and Dead by Daylight licenses.`),
 		imageAlt: 'dead by daylight cheats',
 		galleryTitle: 'dead by daylight cheats',
 		heroImage: HERO_IMAGES[pageKey],
@@ -315,7 +315,7 @@ function buildLegal(locale, pageKey, kind) {
 				kind === 'refund' ? (locale === 'es' ? 'Entrega digital' : locale === 'fr' ? 'Livraison numérique' : locale === 'de' ? 'Digitale Lieferung' : locale === 'ar' ? 'التسليم الرقمي' : locale === 'ja' ? 'デジタル配信' : 'Digital delivery') :
 				(locale === 'es' ? 'Aceptación de términos' : locale === 'fr' ? 'Acceptation' : locale === 'de' ? 'Annahme' : locale === 'ar' ? 'قبول الشروط' : locale === 'ja' ? '規約への同意' : 'Acceptance of terms'),
 				p.s1('Contact email,  order references, and basic site security data.'),
-				kind === 'privacy' ? 'Payment details are processed by  checkout — not stored on dbdhacks.net.' : p.s2(),
+				kind === 'privacy' ? 'Payment details are processed by  checkout — not stored on dbdhack.org.' : p.s2(),
 			),
 			section(
 				kind === 'privacy' ? (locale === 'es' ? 'Uso de la información' : locale === 'fr' ? 'Utilisation' : locale === 'de' ? 'Datennutzung' : locale === 'ar' ? 'استخدام المعلومات' : locale === 'ja' ? '情報の利用' : 'How we use data') :
@@ -329,7 +329,7 @@ function buildLegal(locale, pageKey, kind) {
 				kind === 'refund' ? (locale === 'es' ? 'Cómo solicitar' : locale === 'fr' ? 'Comment demander' : locale === 'de' ? 'Anfrage stellen' : locale === 'ar' ? 'كيفية الطلب' : locale === 'ja' ? '申請方法' : 'How to request') :
 				(locale === 'es' ? 'Cambios' : locale === 'fr' ? 'Modifications' : locale === 'de' ? 'Änderungen' : locale === 'ar' ? 'التغييرات' : locale === 'ja' ? '変更' : 'Policy changes'),
 				p.legal(),
-				'Email: support@dbdhacks.net',
+				'Email: support@dbdhack.org',
 			),
 		],
 	};

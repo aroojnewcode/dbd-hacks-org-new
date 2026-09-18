@@ -52,7 +52,7 @@ const REPLACEMENTS = [
 	['EAC Bypass', 'EAC Bypass'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
 	['eac', 'eac'],
-	['support@dbdhacks.net', 'support@dbdhacks.net'],
+	['support@dbdhack.org', 'support@dbdhack.org'],
 	['The Fog, MacMillan Estate, and Autohaven Wreckers', 'The Fog, MacMillan Estate, and Autohaven Wreckers'],
 	['Autohaven Wreckers, The MacMillan Estate and Streets of DBD', 'Autohaven Wreckers, The MacMillan Estate and Streets of DBD'],
 	['chase escapes', 'chase escapes'],

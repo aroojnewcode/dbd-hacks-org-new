@@ -1,11 +1,15 @@
 import CANNIBAL_REDIRECTS from './cannibal-redirects.json';
 
-const CANONICAL_ORIGIN = 'https://dbdhacks.net';
-const APEX_HOST = 'dbdhacks.net';
-const WWW_HOST = 'www.dbdhacks.net';
+const CANONICAL_ORIGIN = 'https://dbdhack.org';
+const APEX_HOST = 'dbdhack.org';
+const WWW_HOST = 'www.dbdhack.org';
 
 /** Legacy domains → canonical apex (301). */
 const LEGACY_HOSTS = new Set([
+	'dbdhacks.net',
+	'www.dbdhacks.net',
+	'dbdhacks.org',
+	'www.dbdhacks.org',
 	'bestdbdcheats.com',
 	'www.bestdbdcheats.com',
 	'fortnitehack.net',

@@ -42,5 +42,5 @@ console.log('HOME primaryImageOfPage', schemaImg?.[1]);
 console.log('HOME Product.image', productImg?.[1]);
 
 const sm = readFileSync(path.join(dist, 'sitemap-en.xml'), 'utf8');
-const homeBlock = sm.split('<url>').find((b) => b.includes(`${process.env.SITE || 'https://dbdhacks.net'}/</loc>`) || b.includes('dbdhacks.net/</loc>'));
+const homeBlock = sm.split('<url>').find((b) => b.includes(`${process.env.SITE || 'https://dbdhack.org'}/</loc>`) || b.includes('dbdhack.org/</loc>'));
 console.log('\nSITEMAP HOME BLOCK:\n', homeBlock?.slice(0, 600));
