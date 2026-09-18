@@ -18,3 +18,10 @@ if (existsSync(legacy)) {
 	rmSync(legacy, { recursive: true, force: true });
 	console.log('strip-brand-studio: removed dist/__brand');
 }
+
+// Workers static assets: _redirects is limited to 100 rules; redirects live in src/worker.ts
+const redirectsAsset = path.join(root, 'dist', '_redirects');
+if (existsSync(redirectsAsset)) {
+	rmSync(redirectsAsset, { force: true });
+	console.log('strip-brand-studio: removed dist/_redirects (use Worker redirects)');
+}
