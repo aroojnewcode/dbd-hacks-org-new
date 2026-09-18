@@ -6,11 +6,14 @@
  * Workers custom domain `www.dbdhacks.net` attached — otherwise
  * www is NXDOMAIN and Seobility fails the www/non-www check.
  */
+import cannibalRedirects from '../functions/cannibal-redirects.json';
+
 export interface Env {
 	ASSETS: Fetcher;
 }
 
 const CANONICAL_HOST = 'dbdhacks.net';
+const CANNIBAL_REDIRECTS: Record<string, string> = cannibalRedirects;
 
 /** Old apex still 301 → current canonical. */
 const LEGACY_HOSTS = new Set(['bestdbdcheats.com', 'www.bestdbdcheats.com']);
@@ -40,8 +43,13 @@ function canonicalUrl(request: Request): URL | null {
 export default {
 	async fetch(request: Request, env: Env): Promise<Response> {
 		const target = canonicalUrl(request);
-		if (target) {
-			return Response.redirect(target.toString(), 301);
+		const requestUrl = new URL(request.url);
+		const pathRedirect = CANNIBAL_REDIRECTS[requestUrl.pathname];
+
+		if (target || pathRedirect) {
+			const redirectUrl = target ?? requestUrl;
+			if (pathRedirect) redirectUrl.pathname = pathRedirect;
+			return Response.redirect(redirectUrl.toString(), 301);
 		}
 
 		return env.ASSETS.fetch(request);

@@ -1,5 +1,5 @@
-# CI Workers Builds project name (repo: dbdcheats)
-name = "dbdcheats"
+# CI Workers Builds project name
+name = "dbd-hacks-org-new"
 compatibility_date = "2026-01-01"
 main = "src/worker.ts"
 
