@@ -5,7 +5,7 @@
 import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -48,15 +48,18 @@ function htmlPathFor(urlPath) {
 }
 
 const REDIRECT_MAP = (() => {
-	const text = readFileSync(path.join(ROOT, 'public/_redirects'), 'utf8');
 	const map = new Map();
-	for (const line of text.split(/\r?\n/)) {
-		const t = line.trim();
-		if (!t || t.startsWith('#')) continue;
-		const parts = t.split(/\s+/);
-		if (parts.length < 3) continue;
-		const [from, to, status] = parts;
-		if (status === '301' || status === '302') map.set(from, to);
+	const redirectsPath = path.join(ROOT, 'public/_redirects');
+	if (existsSync(redirectsPath)) {
+		const text = readFileSync(redirectsPath, 'utf8');
+		for (const line of text.split(/\r?\n/)) {
+			const t = line.trim();
+			if (!t || t.startsWith('#')) continue;
+			const parts = t.split(/\s+/);
+			if (parts.length < 3) continue;
+			const [from, to, status] = parts;
+			if (status === '301' || status === '302') map.set(from, to);
+		}
 	}
 	try {
 		const json = JSON.parse(readFileSync(path.join(ROOT, 'functions/cannibal-redirects.json'), 'utf8'));
